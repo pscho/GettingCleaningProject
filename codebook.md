@@ -45,138 +45,207 @@ std(): Standard deviation
 Variables
 =========
 
-1	subject
+1.	subject
+   - The ID of the subject
 
-2	activity
+2.	activity
+   - The name of the activity
 
-3	body.acceleration.mean.time.x
+3.	body.acceleration.mean.time.x
+   - Mean body acceleration time on the X-axis
 
-4	body.acceleration.mean.time.y
+4.	body.acceleration.mean.time.y
+   - Mean body acceleration time on the Y-axis
 
-5	body.acceleration.mean.time.z
+5.	body.acceleration.mean.time.z
+   - Mean body acceleration time on the Z-axis
 
-6	gravity.acceleration.mean.time.x
+6.	gravity.acceleration.mean.time.x
+   - Mean gravity acceleration time on the X-axis
 
-7	gravity.acceleration.mean.time.y
+7.	gravity.acceleration.mean.time.y
+   - Mean gravity acceleration time on the Y-axis
 
-8	gravity.acceleration.mean.time.z
+8.	gravity.acceleration.mean.time.z
+   - Mean gravity acceleration time on the Z-axis
 
-9	body.acceleration.jerk.mean.time.x
+9.	body.acceleration.jerk.mean.time.x
+   - Mean body jerk acceleration time on the X-axis
 
-10	body.acceleration.jerk.mean.time.y
+10.	body.acceleration.jerk.mean.time.y
+   - Mean body jerk acceleration time on the Y-axis
 
-11	body.acceleration.jerk.mean.time.z
+11.	body.acceleration.jerk.mean.time.z
+   - Mean body jerk acceleration time on the Z-axis
+   
+12.	body.gyro.mean.time.x
+   - Mean body gyroscope time on the X-axis
 
-12	body.gyro.mean.time.x
+13.	body.gyro.mean.time.y
+   - Mean body gyroscope time on the Y-axis
 
-13	body.gyro.mean.time.y
+14.	body.gyro.mean.time.z
+   - Mean body gyroscope time on the Z-axis
 
-14	body.gyro.mean.time.z
+15.	body.gyro.jerk.mean.time.x
+   - Mean body gyroscope jerk time on the X-axis
 
-15	body.gyro.jerk.mean.time.x
+16.	body.gyro.jerk.mean.time.y
+   - Mean body gyroscope jerk time on the Y-axis
 
-16	body.gyro.jerk.mean.time.y
+17.	body.gyro.jerk.mean.time.z
+   - Mean body gyroscope jerk time on the Z-axis
 
-17	body.gyro.jerk.mean.time.z
+18.	body.acceleration.magnitude.mean.time
+   - Mean body acceleration magnitude time
 
-18	body.acceleration.magnitude.mean.time
+19.	gravity.acceleration.magnitude.mean.time
+   - Mean gravity acceleration magnitude time
 
-19	gravity.acceleration.magnitude.mean.time
+20.	body.acceleration.jerk.magnitude.mean.time
+   - Mean body acceleration jerk magnitude time
 
-20	body.acceleration.jerk.magnitude.mean.time
+21.	body.gyro.magnitude.mean.time
+   - Mean body gyroscope magnitude time
 
-21	body.gyro.magnitude.mean.time
+22.	body.gyro.jerk.magnitude.mean.time
+   - Mean body gyroscope jerk magnitude time
 
-22	body.gyro.jerk.magnitude.mean.time
+23. body.acceleration.mean.frequency.x
+   - Mean body acceleration frequency on the X-axis
 
-23	body.acceleration.mean.frequency.x
+24.	body.acceleration.mean.frequency.y
+   - Mean body acceleration frequency on the Y-axis
 
-24	body.acceleration.mean.frequency.y
+25.	body.acceleration.mean.frequency.z
+   - Mean body acceleration frequency on the Z-axis
 
-25	body.acceleration.mean.frequency.z
+26.	body.acceleration.jerk.mean.frequency.x
+   - Mean body acceleration jerk frequency on the X-axis
 
-26	body.acceleration.jerk.mean.frequency.x
+27.	body.acceleration.jerk.mean.frequency.y
+   - Mean body acceleration jerk frequency on the Y-axis
 
-27	body.acceleration.jerk.mean.frequency.y
+28.	body.acceleration.jerk.mean.frequency.z
+   - Mean body acceleration jerk frequency on the Z-axis
 
-28	body.acceleration.jerk.mean.frequency.z
+29.	body.gyro.mean.frequency.x
+   - Mean body gyroscope frequency on the X-axis
 
-29	body.gyro.mean.frequency.x
+30.	body.gyro.mean.frequency.y
+   - Mean body gyroscope frequency on the Y-axis
 
-30	body.gyro.mean.frequency.y
+31.	body.gyro.mean.frequency.z
+   - Mean body gyroscope frequency on the Z-axis
 
-31	body.gyro.mean.frequency.z
+32.	body.acceleration.magnitude.mean.frequency
+   - Mean body acceleration magnitude frequency 
 
-32	body.acceleration.magnitude.mean.frequency
+33.	body.accel.jerk.magnitude.mean.frequency
+   - Mean body acceleration jerk magnitude frequency
 
-33	body.accel.jerk.magnitude.mean.frequency
+34.	body.gyro.magnitude.mean.frequency
+   - Mean body gyroscope magnitude frequency
 
-34	body.gyro.magnitude.mean.frequency
+35.	body.gyro.jerk.magnitude.mean.frequency
+   - Mean body gyroscope jerk magnitude frequency
 
-35	body.gyro.jerk.magnitude.mean.frequency
+36.	body.acceleration.std.time.x
+   - Std of body acceleration time on the X-axis
 
-36	body.acceleration.std.time.x
+37.	body.acceleration.std.time.y
+   - Std of body acceleration time on the Y-axis
 
-37	body.acceleration.std.time.y
+38.	body.acceleration.std.time.z
+   - Std of body acceleration time on the Z-axis
 
-38	body.acceleration.std.time.z
+39.	gravity.acceleration.std.time.x
+   - Std of gravity acceleration time on the X-axis
 
-39	gravity.acceleration.std.time.x
+40.	gravity.acceleration.std.time.y
+   - Std of gravity acceleration time on the Y-axis
 
-40	gravity.acceleration.std.time.y
+41.	gravity.acceleration.std.time.z
+   - Std of gravity acceleration time on the Z-axis
 
-41	gravity.acceleration.std.time.z
+42.	body.acceleration.jerk.std.time.x
+   - Std of body acceleration jerk time on the X-axis
 
-42	body.acceleration.jerk.std.time.x
+43.	body.acceleration.jerk.std.time.y
+   - Std of body acceleration jerk time on the Y-axis
 
-43	body.acceleration.jerk.std.time.y
+44.	body.acceleration.jerk.std.time.z
+   - Std of body acceleration jerk time on the Z-axis
 
-44	body.acceleration.jerk.std.time.z
+45.	body.gyro.std.time.x
+   - Std of body gyroscope time on the X-axis
 
-45	body.gyro.std.time.x
+46.	body.gyro.std.time.y
+   - Std of body gyroscope time on the Y-axis
 
-46	body.gyro.std.time.y
+47.	body.gyro.std.time.z
+   - Std of body gyroscope time on the Z-axis
 
-47	body.gyro.std.time.z
+48.	body.gyro.jerk.std.time.x
+   - Std of body gyroscope jerk time on the X-axis
 
-48	body.gyro.jerk.std.time.x
+49.	body.gyro.jerk.std.time.y
+   - Std of body gyroscope jerk time on the Y-axis
 
-49	body.gyro.jerk.std.time.y
+50.	body.gyro.jerk.std.time.z
+   - Std of body gyroscope jerk time on the Z-axis
 
-50	body.gyro.jerk.std.time.z
+51.	body.acceleration.magnitude.std.time
+   - Std of body acceleration magnitude time
 
-51	body.acceleration.magnitude.std.time
+52.	gravity.acceleration.magnitude.std.time
+   - Std of gravity acceleration magnitude time
 
-52	gravity.acceleration.magnitude.std.time
+53.	body.acceleration.jerk.magnitude.std.time
+   - Std of body acceleration jerk magnitude time
 
-53	body.acceleration.jerk.magnitude.std.time
+54.	body.gyro.magnitude.std.time
+   - Std of body gyroscope magnitude time
 
-54	body.gyro.magnitude.std.time
+55.	body.gyro.jerk.magnitude.std.time
+   - Std of body gyroscope jerk magnitude time
 
-55	body.gyro.jerk.magnitude.std.time
+56.	body.acceleration.std.frequency.x
+   - Std of body acceleration frequency on the X-axis
 
-56	body.acceleration.std.frequency.x
+57.	body.acceleration.std.frequency.y
+   - Std of body acceleration frequency on the Y-axis
 
-57	body.acceleration.std.frequency.y
+58.	body.acceleration.std.frequency.z
+   - Std of body acceleration frequency on the Z-axis
 
-58	body.acceleration.std.frequency.z
+59.	body.acceleration.jerk.std.frequency.x
+   - Std of body acceleration jerk frequency on the X-axis
 
-59	body.acceleration.jerk.std.frequency.x
+60.	body.acceleration.jerk.std.frequency.y
+   - Std of body acceleration jerk frequency on the Y-axis
 
-60	body.acceleration.jerk.std.frequency.y
+61.	body.acceleration.jerk.std.frequency.z
+   - Std of body acceleration jerk frequency on the Z-axis
 
-61	body.acceleration.jerk.std.frequency.z
+62.	body.gyro.std.frequency.x
+   - Std of body gyroscope frequency on the X-axis
 
-62	body.gyro.std.frequency.x
+63.	body.gyro.std.frequency.y
+   - Std of body gyroscope frequency on the Y-axis
 
-63	body.gyro.std.frequency.y
+64.	body.gyro.std.frequency.z
+   - Std of body gyroscope frequency on the Z-axis
 
-64	body.gyro.std.frequency.z
+65.	body.acceleration.magnitude.std.frequency
+   - Std of body acceleration magnitude frequency
+   
+66. body.accel.jerk.magnitude.std.frequency
+   - Std of body acceleration jerk magnitude frequency 
+    
+67. body.gyro.magnitude.std.frequency
+   - Std of body gyroscope magnitude frequency
 
-65	body.acceleration.magnitude.std.frequency
-
-66	body.accel.jerk.magnitude.std.frequency
-
-67	body.gyro.magnitude.std.frequency
-
-68	body.gyro.jerk.magnitude.std.frequency
+68.	body.gyro.jerk.magnitude.std.frequency
+   - Std of body gyro jerk magnitude frequency
+   
